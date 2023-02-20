@@ -1,6 +1,7 @@
 SteelSeries Rival 500 (and most mice) rotary encoders appear to have the same construction as EC11
 
 EC11 Encoder disassembled https://electronics.stackexchange.com/questions/443918/how-to-best-clean-this-sealed-mechanical-rotary-encoder-volume-knob
+https://github.com/felixha00/lowcost-voltex
 
 SteelSeries-Rival-500-Disassembly encoder2 Alps EC10E1220505 should work w swap of metal housing  
 --overclock.net'threads'mouse-wheel-encoders.1591941'post-28970994.webp
