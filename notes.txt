@@ -1,4 +1,4 @@
-SteelSeries Rival 500 (and most mice) rotary encoders appear to have the same construction as EC11
+Rotary encoder in the Rival 500 (and most mice) appear to have the same construction as EC11
 
 EC11 Encoder disassembled https://electronics.stackexchange.com/questions/443918/how-to-best-clean-this-sealed-mechanical-rotary-encoder-volume-knob
 https://github.com/felixha00/lowcost-voltex
@@ -9,3 +9,24 @@ SteelSeries-Rival-500-Disassembly encoder2 Alps EC10E1220505 should work w swap 
 Resolution is likely
 15 Pulses per 360 ° Rotation
 Or 20 Pulses per 360 ° Rotation
+
+----
+SteelSeries Rival 500 
+Length: 118.6 mm (4.67 in), Width: 78.3 mm 
+PixArt PMW3360 Optical Sensor
+DPI 100-16,000, IPS 300, Acceleration 50g, Polling Rate 1 ms (1000 Hz).
+Buttons 10 extra, 3 mouse, 2 tilt wheel = 15 buttons total + wheel rotary encoder
+
+Mouse buttons are supported in QMK. Not yet in ZMK, but seems close.
+
+PMW3360 optical sensor appears supported in QMK. Not yet in ZMK.
+
+ploopyco mouse uses pmw3360.
+pmw3360dm-t2qu atmega32u4rc-au https://github.com/ploopyco/mouse/blob/master/hardware/electronics/schematic.pdf 
+
+A number of other QMK keyboards use the pmw3360 for trackballs 
+https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb
+https://github.com/ziteh/ergo-snm-keyboard
+https://github.com/atulloh/oddball
+
+pmw3360 breakout https://github.com/ziteh/pmw3360-pcb
