@@ -13,9 +13,11 @@ Or 20 Pulses per 360 ° Rotation
 ----
 SteelSeries Rival 500 
 Length: 118.6 mm (4.67 in), Width: 78.3 mm 
-PixArt PMW3360 Optical Sensor
+Microelectronics STM32F103-RCT6 32-bit ARM Cortex-M3 processor at 72MHz clock.
+PixArt PMW3360 Optical Sensor on duaghter board, connected by 0.5mm pitch 9pin FFC / FPC flat cable. 
 DPI 100-16,000, IPS 300, Acceleration 50g, Polling Rate 1 ms (1000 Hz).
 Buttons 10 extra, 3 mouse, 2 tilt wheel = 15 buttons total + wheel rotary encoder
+https://www.tweaktown.com/reviews/8322/steelseries-rival-500-moba-mmo-gaming-mouse-review/index.html#Inside-the-Rival-500
 
 Mouse buttons are supported in QMK. Not yet in ZMK, but seems close.
 
