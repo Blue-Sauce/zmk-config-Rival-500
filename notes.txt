@@ -24,7 +24,8 @@ Or 20 Pulses per 360 ° Rotation
 ---
 Mouse buttons are not yet supported in ZMK, but seems close. Supported in QMK (3+ mouse buttons, L/R tilt wheel buttons, up/down scroll).
 
-PMW3360 optical sensor not yet supported in ZMK. Appears supported in QMK for mouse pointer movement.
+PMW3360 optical sensor not yet supported in ZMK, but seems close. Appears supported in QMK for mouse pointer movement.
+https://github.com/zmkfirmware/zmk/pull/1163
 
 ploopyco mouse uses pmw3360.
 pmw3360dm-t2qu atmega32u4rc-au https://github.com/ploopyco/mouse/blob/master/hardware/electronics/schematic.pdf 
